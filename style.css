@@ -17,14 +17,15 @@ body{
 /* NAVBAR */
 
 nav{
-
+  position:absolute;
+  top:0;
+  left:0;
   width:100%;
-
   display:flex;
   justify-content:space-between;
   align-items:center;
-
   padding:30px 8%;
+  z-index:100;
 }
 
 .logo{
@@ -36,22 +37,14 @@ nav{
 /* MENU BUTTON */
 
 .menu-btn{
-
   background:#111;
   color:white;
-
   border:none;
-
   padding:16px 28px;
-
   border-radius:999px;
-
   cursor:pointer;
-
   font-family:'Inter',sans-serif;
-
   font-size:15px;
-
   transition:0.3s;
 }
 
@@ -62,24 +55,15 @@ nav{
 /* DROPDOWN MENU */
 
 .menu{
-
   position:absolute;
-
   top:100px;
   right:8%;
-
   background:white;
-
   padding:30px;
-
   border-radius:25px;
-
   display:none;
-
   flex-direction:column;
-
   gap:20px;
-
   box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -92,15 +76,10 @@ nav{
 /* LINKS */
 
 .menu a{
-
   text-decoration:none;
-
   color:#111;
-
   font-size:18px;
-
   font-weight:500;
-
   transition:0.3s;
 }
 
@@ -111,16 +90,12 @@ nav{
 /* HERO */
 
 .hero{
-
-  min-height:90vh;
-
+  height:100vh;
   display:flex;
   align-items:center;
-  justify-content:center;
+  justify-content:space-between;
 
-  gap:80px;
-
-  padding:40px 8%;
+  overflow:hidden;
 }
 
 .hero-text{
@@ -133,45 +108,31 @@ nav{
 }
 
 .hero h1{
-
   font-family:'Roboto',sans-serif;
-
   font-size:90px;
   line-height:0.95;
-
   font-weight:900;
-
   margin-bottom:30px;
 }
 
 .hero-description{
-
   font-size:20px;
-
   line-height:1.7;
-
   color:#555;
-
   margin-bottom:40px;
 }
 
 /* BUTTON */
 
 .contact-btn{
-
   display:inline-flex;
   align-items:center;
   gap:15px;
-
   background:#111;
   color:white;
-
   text-decoration:none;
-
   padding:18px 32px;
-
   border-radius:999px;
-
   transition:0.3s;
 }
 
@@ -180,85 +141,64 @@ nav{
 }
 
 .arrow{
-
   width:35px;
   height:35px;
-
   background:white;
   color:black;
-
   border-radius:50%;
-
   display:flex;
   align-items:center;
   justify-content:center;
-
   font-weight:bold;
 }
 
 /* IMAGE */
 
 .hero-image{
-
   width:500px;
   height:650px;
-
   overflow:hidden;
-
   border-radius:0 0 300px 300px;
-
   background:#ddd;
-
   flex-shrink:0;
 }
 
 .hero-image img{
-
   width:100%;
   height:100%;
-
   object-fit:cover;
 }
 
 /* CONTACT */
 
 .contact{
-
   padding:120px 8%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 
 .contact h2{
-
   font-family:'Roboto',sans-serif;
-
   font-size:60px;
-
   margin-bottom:40px;
 }
 
 form{
-
+    width:100%;
   max-width:700px;
-
   display:flex;
   flex-direction:column;
-
   gap:20px;
 }
 
 input,
 textarea{
-
-  padding:18px;
-
-  border:none;
-
-  background:white;
-
-  border-radius:15px;
-
-  font-family:'Inter',sans-serif;
-
+  background:#111;
+  border:1px solid #a855f7;
+  padding:15px;
+  border-radius:10px;
+  color:white;
   font-size:16px;
 }
 
@@ -268,22 +208,14 @@ textarea{
 }
 
 .send-btn{
-
   width:200px;
-
   background:#111;
   color:white;
-
   border:none;
-
   padding:18px;
-
   border-radius:999px;
-
   cursor:pointer;
-
   font-size:16px;
-
   transition:0.3s;
 }
 

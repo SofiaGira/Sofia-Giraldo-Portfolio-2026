@@ -7,3 +7,41 @@ menuBtn.addEventListener("click", () => {
   menu.classList.toggle("active");
 
 });
+
+// INIT EMAILJS
+
+emailjs.init("H3tLahI10L-bg-4gL");
+
+// FORM
+
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", function(e){
+
+  e.preventDefault();
+
+  emailjs.sendForm(
+
+    "service_s3voa0s",
+    "template_2kw1zwo",
+    this
+
+  )
+
+  .then(() => {
+
+    alert("Message Sent Successfully!");
+
+    form.reset();
+
+  })
+
+  .catch((error) => {
+
+    alert("Failed to send message");
+
+    console.log(error);
+
+  });
+
+});

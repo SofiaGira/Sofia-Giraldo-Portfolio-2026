@@ -29,7 +29,7 @@
   <!-- LOGO -->
 
   <div class="logo">
-    SOFIA
+    portfolio
   </div>
 
   <!-- MENU BUTTON -->
@@ -67,15 +67,16 @@
       </p>
 
       <h1>
-        A UI/UX <br>
-        & Brand <br>
-        Designer
+        An Environmental <br>
+        Design <br>
+        Student
       </h1>
 
       <p class="hero-description">
 
-        Transforming ideas into stunning digital experiences
-        through thoughtful design, creativity and innovation.
+        I enjoy designing with a particular focus on public
+        space, environment protection, social engagement,
+        and urban transformation and innovation.
 
       </p>
 
@@ -111,24 +112,38 @@
       Let's Work Together
     </h2>
 
-    <form>
+    <form id="contact-form">
 
-      <input type="text" placeholder="Your Name">
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+  >
 
-      <input type="email" placeholder="Your Email">
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+  >
 
-      <textarea placeholder="Your Message"></textarea>
+  <textarea
+    name="message"
+    placeholder="Your Message"
+    required
+  ></textarea>
 
-      <button class="send-btn">
-        Send Message
-      </button>
+  <button type="submit" class="send-btn">
+    Send Message
+  </button>
 
-    </form>
+</form>
 
   </section>
 
   <!-- JS -->
-
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="js/script.js"></script>
 
 </body>
