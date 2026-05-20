@@ -33,16 +33,79 @@ nav{
   font-weight:900;
 }
 
-nav ul{
-  display:flex;
-  gap:30px;
-  list-style:none;
+/* MENU BUTTON */
+
+.menu-btn{
+
+  background:#111;
+  color:white;
+
+  border:none;
+
+  padding:16px 28px;
+
+  border-radius:999px;
+
+  cursor:pointer;
+
+  font-family:'Inter',sans-serif;
+
+  font-size:15px;
+
+  transition:0.3s;
 }
 
-nav a{
+.menu-btn:hover{
+  transform:scale(1.05);
+}
+
+/* DROPDOWN MENU */
+
+.menu{
+
+  position:absolute;
+
+  top:100px;
+  right:8%;
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:25px;
+
+  display:none;
+
+  flex-direction:column;
+
+  gap:20px;
+
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* MENU ACTIVE */
+
+.menu.active{
+  display:flex;
+}
+
+/* LINKS */
+
+.menu a{
+
   text-decoration:none;
+
   color:#111;
+
+  font-size:18px;
+
   font-weight:500;
+
+  transition:0.3s;
+}
+
+.menu a:hover{
+  color:#888;
 }
 
 /* HERO */
@@ -142,7 +205,7 @@ nav a{
 
   overflow:hidden;
 
-  border-radius:300px;
+  border-radius:0 0 300px 300px;
 
   background:#ddd;
 
