@@ -68,6 +68,7 @@ nav{
   z-index:9999;
 }
 
+
 /* MENU ACTIVE */
 
 .menu.active{
@@ -168,10 +169,10 @@ nav{
 }
 
 .hero-image img{
-  width:110%;
-  height:110%;
+  width:130%;
+  height:130%;
   object-fit:cover;
-  object-position:center top;
+  object-position:center 80%;
 }
 
 /* CONTACT */
