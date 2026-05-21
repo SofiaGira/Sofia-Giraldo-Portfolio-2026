@@ -111,7 +111,7 @@ nav{
 
 .hero h1{
   font-family:'Roboto',sans-serif;
-  font-size:90px;
+  font-size:80px;
   line-height:0.95;
   font-weight:900;
   margin-bottom:30px;
@@ -157,8 +157,8 @@ nav{
 /* IMAGE */
 
 .hero-image{
-  width:450px;
-  height:80vh;
+  width:500px;
+  height:100vh;
   overflow:hidden;
   border-radius:0 0 300px 300px;
   background:#ddd;
