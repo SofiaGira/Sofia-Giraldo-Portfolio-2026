@@ -157,8 +157,8 @@ nav{
 /* IMAGE */
 
 .hero-image{
-  width:500px;
-  height:100vh;
+  width:450px;
+  height:80vh;
   overflow:hidden;
   border-radius:0 0 300px 300px;
   background:#ddd;
