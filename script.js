@@ -8,7 +8,7 @@ menuBtn.addEventListener("click", () => {
 
 });
 
-// INIT EMAILJS
+// EMAILJS INIT
 
 emailjs.init("H3tLahI10L-bg-4gL");
 
@@ -24,7 +24,8 @@ form.addEventListener("submit", function(e){
 
     "service_s3voa0s",
     "template_2kw1zwo",
-    this
+    "#contact-form",
+    "H3tLahI10L-bg-4gL"
 
   )
 
