@@ -196,6 +196,7 @@ form{
 
 input,
 textarea{
+  font-family:'inter';
   background:#7F7F7F;
   border:1px solid #000000;
   padding:15px;
@@ -205,6 +206,7 @@ textarea{
 }
 
 textarea{
+  font-family:'inter';
   height:200px;
   resize:none;
 }
