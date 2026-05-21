@@ -93,14 +93,16 @@ nav{
 .hero{
   min-height:100vh;
   display:flex;
+  justify-content:center;
   gap:80px;
-  padding:40px 8%;
+  padding-left:8%;
+  padding-right:8%;
   overflow:hidden;
 }
 
 .hero-text{
   max-width:500px;
-  align-self:center;
+   padding-top:180px;
 }
 
 .small-text{
@@ -157,7 +159,7 @@ nav{
 
 .hero-image{
   width:450px;
-  height:100vh;
+  height:850px;
   overflow:hidden;
   border-radius:0 0 300px 300px;
   background:#ddd;
