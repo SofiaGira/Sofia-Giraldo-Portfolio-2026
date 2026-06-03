@@ -45,43 +45,6 @@ nav a{
   text-decoration:none;
 }
 
-/* MENU BUTTON */
-
-.menu-btn{
-  background:#111;
-  color:white;
-  border:none;
-  padding:16px 28px;
-  border-radius:999px;
-  cursor:pointer;
-  font-family:'Inter',sans-serif;
-  font-size:15px;
-  transition:0.3s;
-}
-
-.menu-btn:hover{
-  transform:scale(1.05);
-}
-
-/* MENU ACTIVE */
-
-.menu.active{
-  display:flex;
-}
-
-/* LINKS */
-
-.menu a{
-  text-decoration:none;
-  color:#111;
-  font-size:18px;
-  font-weight:500;
-  transition:0.3s;
-}
-
-.menu a:hover{
-  color:#7f7f7f;
-}
 
 /* HERO */
 
