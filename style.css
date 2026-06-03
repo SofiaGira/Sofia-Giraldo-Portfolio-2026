@@ -34,6 +34,17 @@ nav{
   font-weight:900;
 }
 
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+nav a{
+  color:rgb(0, 0, 0);
+  text-decoration:none;
+}
+
 /* MENU BUTTON */
 
 .menu-btn{
@@ -51,23 +62,6 @@ nav{
 .menu-btn:hover{
   transform:scale(1.05);
 }
-
-/* DROPDOWN MENU */
-
-.menu{
-  position:fixed;
-  top:100px;
-  right:8%;
-  background:rgb(0, 0, 0);
-  padding:30px;
-  border-radius:25px;
-  display:none;
-  flex-direction:column;
-  gap:20px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.1);
-  z-index:9999;
-}
-
 
 /* MENU ACTIVE */
 
