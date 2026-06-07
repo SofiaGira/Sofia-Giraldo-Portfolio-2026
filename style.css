@@ -130,8 +130,8 @@ nav a{
   height:160%;
   object-fit:cover;
   object-position:center top;
-  transform:translateY(-600px);
-  transform:translateX(-50px);
+  transform:translateY(-900px);
+  transform:translateX(-150px);
 }
 
 /* RESPONSIVE */
