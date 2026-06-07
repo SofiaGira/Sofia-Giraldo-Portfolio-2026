@@ -128,7 +128,6 @@ nav a{
 .hero-image img{
   width:130%;
   height:130%;
-  object-fit:cover;
   object-position:center bottom;
 }
 
