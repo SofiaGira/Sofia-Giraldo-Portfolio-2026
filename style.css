@@ -128,7 +128,9 @@ nav a{
 .hero-image img{
   width:130%;
   height:130%;
-  object-position:center bottom;
+  object-fit:cover;
+  object-position:center top;
+  transform:translateY(-50px);
 }
 
 /* RESPONSIVE */
